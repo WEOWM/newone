@@ -224,7 +224,7 @@ const App = () => {
             located in both physical and virtual environments, such as:
           </p>
 
-          <ul className="list-disc ml-5 mt-10 font-normal text-[20px] w-[653px]">
+          <ul className="list-disc ml-5 mt-10 font-normal text-[20px] lh:w-[653px]">
             <li>
               Asif Firewall Cloud-to-Cloud Backup. Safeguard your Microsoft 365
               environment, including emails, attachments, calendars, contacts,
@@ -235,7 +235,7 @@ const App = () => {
         </div>
       </section>
       <section className="h-screen bg-black text-white  lg:pt-40 lg:px-5 font-Inter">
-        <p className="font-bold text-[50px]">Related Articles</p>
+        <p className="font-bold text-[50px] font-Cairo">Related Articles</p>
 
         <div className="grid grid-cols-4 max-sm:grid-cols-1 lg:mt-10 text-white gap-x-5 font-Inter">
           {cards.map((item) => (
