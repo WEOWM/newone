@@ -14,12 +14,12 @@ const Header = () => {
             <p>LOGO</p>
 
             <div className='flex gap-x-10 font-Inter'>
-                <p>product</p>
-                <p>Support</p>
-                <p>Services</p>
-                <p>Solution</p>
-                <p>About Us</p>
-                <p>Blog</p>
+                <p className='cursor-pointer'>product</p>
+                <p className='cursor-pointer'>Support</p>
+                <p className='cursor-pointer'>Services</p>
+                <p className='cursor-pointer'>Solution</p>
+                <p className='cursor-pointer'>About Us</p>
+                <p className='cursor-pointer'>Blog</p>
             </div>
 
             <div className=''>

@@ -81,7 +81,7 @@ const App = () => {
           srcset=""
         />
         <div className="h-20 bg-[#171717] lg:px-6 flex flex-col text-white ">
-          <p className="max-sm:text-[12px]">Asif Firewall Data Protection</p>
+          <p className="max-sm:text-[12px] font-Inter">Asif Firewall Data Protection</p>
 
           <div className="flex gap-x-5 lg:mt-4 font-Inter">
             <p className="hover:underline hover:text-[#6DDCFF]">overview</p>
@@ -258,7 +258,7 @@ const App = () => {
               </div>
 
               <div className="flex justify-start ps-10 lg:mt-10">
-                <p className="px-3 py-2 border rounded-md bg-gradient-to-tr from-[#6DDCFF] to-[#7F60F9] text-white">
+                <p className="px-3 py-2 cursor-pointer rounded-md bg-gradient-to-tr from-[#6DDCFF] to-[#7F60F9] text-white">
                   Learn More
                 </p>
               </div>
@@ -291,7 +291,7 @@ const App = () => {
                   placeholder="exapmle@frsharmail.com"
                   className="border w-[586px] py-2 ps-1 rounded-md outline-none"
                 />
-                <button className="border flex px-5  items-center gap-x-3">
+                <button className="border flex px-5  items-center gap-x-3 cursor-pointer">
                   <img src={bell} className="w-[22px] h-[22px]" alt="" />
                   SUBSCRIBE
                 </button>
