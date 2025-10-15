@@ -318,7 +318,7 @@ const App = () => {
             Receive Updates on Asif firewall and Special Promotions!
           </p>
           <div className="flex mt-10">
-            <input type="text" className="border " />
+            <input type="text" className="border placeholder:text-gray-400" placeholder="Email" />
             <p className="px-2 py-1 border rounded-br-[10px] rounded-tr-[10px] ">
               Submit
             </p>
