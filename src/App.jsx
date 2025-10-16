@@ -228,7 +228,7 @@ const App = () => {
     });
     gsap.fromTo(
       ".arror",
-      { x: -200, borderRadius: "0%", opacity: 0, width: 200, height: 200 }, // start state
+      { x: -900, borderRadius: "0%", opacity: 0, width: 200, height: 200 }, // start state
       {
         x: 0,
         width: 80,
