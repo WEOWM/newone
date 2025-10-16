@@ -250,7 +250,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <section className="w-full lg:h-[65vh] max-sm:h-auto">
+      <section className="w-full lg:h-auto max-sm:h-auto">
         <img
           src={banner}
           className="w-full lg:h-[542px] object-cover"
@@ -262,7 +262,7 @@ const App = () => {
             Asif Firewall Data Protection
           </p>
 
-          <div className="flex gap-x-5 lg:mt-4 font-Inter liste">
+          <div className="flex gap-x-5  font-Inter liste">
             <p className="hover:underline hover:text-[#6DDCFF]">overview</p>
             <p className="hover:underline hover:text-[#6DDCFF]">Features</p>
             <p className="hover:underline hover:text-[#6DDCFF]">Modals</p>
@@ -272,7 +272,7 @@ const App = () => {
       </section>
 
       <section
-        className=" h-auto  lg:mt-[5rem] text-white lg:px-10  "
+        className=" h-auto   text-white lg:px-10  "
         style={{ backgroundImage: `url(${bg})` }}
       >
         <div className="w-full lg:h-48 justify-center items-center flex">
@@ -419,7 +419,7 @@ const App = () => {
           Related Articles
         </p>
 
-        <div className="grid grid-cols-4 h-auto px-3 py-3 max-sm:grid-cols-1 lg:mt-10 text-white gap-6 font-Inter listcard">
+        <div className="grid grid-cols-4  h-auto px-3 py-3 max-sm:grid-cols-1 lg:mt-10 text-white gap-6 font-Inter listcard">
           {cards.map((item, index) => (
             <div
               key={index}
