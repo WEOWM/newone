@@ -414,12 +414,12 @@ const App = () => {
           </ul>
         </div>
       </section>
-      <section className="h-screen bg-black text-white  lg:pt-40 lg:px-5 font-Inter overflow-hidden">
+      <section className="lg:h-screen bg-black text-white  lg:pt-40 lg:px-5 font-Inter overflow-hidden">
         <p className="font-bold text-[50px] font-Cairo Related-Articles">
           Related Articles
         </p>
 
-        <div className="grid grid-cols-4 max-sm:grid-cols-1 lg:mt-10 text-white gap-6 font-Inter listcard">
+        <div className="grid grid-cols-4 h-auto px-3 py-3 max-sm:grid-cols-1 lg:mt-10 text-white gap-6 font-Inter listcard">
           {cards.map((item, index) => (
             <div
               key={index}
